@@ -106,4 +106,8 @@ python3 create_tables.py
 Run this below command to fill in the tables via ETL:
 ```bash
 python3 etl.py
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 870cb44b9396608ddc486ec29056002bfd21cc9d
