@@ -2,8 +2,8 @@
 
 ## 1. Project Overview:
 * The goal is to perform data modeling using these data-sources:
-+ Data from the Million Songs dataset that consists of song and artist data
-+ Logs generated with this dataset and the event generator.
+... Data from the Million Songs dataset that consists of song and artist data
+... Logs generated with this dataset and the event generator.
 
 
 
