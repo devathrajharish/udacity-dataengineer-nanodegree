@@ -88,17 +88,7 @@ def process_log_file(cur, filepath):
             songid, artistid = 'None', 'None'
 
         # insert songplay record
-        songplay_data = songplay_data = [
-            row['ts'],
-            row['userId'],
-            row['level'],
-            songid,
-            artistid,
-            row['sessionId'],
-            row['location'],
-            row['userAgent']
-        ]
-
+        songplay_data = (index, pd.to_datetime(row.ts, unit='ms'), int(row.userId), row.level, songid, artistid, row.sessionId, row.location, row.userAgent)
         cur.execute(songplay_table_insert, songplay_data)
 def process_data(cur, conn, filepath, func):
     # get all files matching extension from directory

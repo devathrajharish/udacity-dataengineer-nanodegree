@@ -1,55 +1,109 @@
-Schema for Song Play Analysis
-Using the song and log datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
+# ETL for Million Songs Dataset for Sparkify
+# Documentation contains:
+1. Introduction
+2. Repository files explained
+3. Dataset used
+4. The schema Design
+5. How to run the project
 
-Fact Table
-songplays - records in log data associated with song plays i.e. records with page NextSong
-songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
-Dimension Tables
-users - users in the app
-user_id, first_name, last_name, gender, level
-songs - songs in music database
-song_id, title, artist_id, year, duration
-artists - artists in music database
-artist_id, name, location, latitude, longitude
-time - timestamps of records in songplays broken down into specific units
-start_time, hour, day, week, month, year, weekday
-Project Template
-To get started with the project, go to the workspace on the next page, where you'll find the project template files. You can work on your project and submit your work through this workspace. Alternatively, you can download the project template files from the Resources folder if you'd like to develop your project locally.
+# Summary of project
+## Introduction:
 
-In addition to the data files, the project workspace includes six files:
+A Fictional Startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
-test.ipynb displays the first few rows of each table to let you check your database.
-create_tables.py drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.
-etl.ipynb reads and processes a single file from song_data and log_data and loads the data into your tables. This notebook contains detailed instructions on the ETL process for each of the tables.
-etl.py reads and processes files from song_data and log_data and loads them into your tables. You can fill this out based on your work in the ETL notebook.
-sql_queries.py contains all your sql queries, and is imported into the last three files above.
-README.md provides discussion on your project.
-Project Steps
-Below are steps you can follow to complete the project:
+Task is to create a Postgres database with tables designed to optimize queries on song play analysis and create database schema and ETL pipeline for this analysis.
 
-Create Tables
-Write CREATE statements in sql_queries.py to create each table.
-Write DROP statements in sql_queries.py to drop each table if it exists.
-Run create_tables.py to create your database and tables.
-Run test.ipynb to confirm the creation of your tables with the correct columns. Make sure to click "Restart kernel" to close the connection to the database after running this notebook.
-Build ETL Processes
-Follow instructions in the etl.ipynb notebook to develop ETL processes for each table. At the end of each table section, or at the end of the notebook, run test.ipynb to confirm that records were successfully inserted into each table. Remember to rerun create_tables.py to reset your tables before each time you run this notebook.
-
-Build ETL Pipeline
-Use what you've completed in etl.ipynb to complete etl.py, where you'll process the entire datasets. Remember to run create_tables.py before running etl.py to reset your tables. Run test.ipynb to confirm your records were successfully inserted into each table.
-
-Document Process
-Do the following steps in your README.md file.
-
-Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.
-State and justify your database schema design and ETL pipeline.
-[Optional] Provide example queries and results for song play analysis.
-Here's a guide on Markdown Syntax.
-
-NOTE: You will not be able to run test.ipynb, etl.ipynb, or etl.py until you have run create_tables.py at least once to create the sparkifydb database, which these other files connect to.
-Project Rubric
-Read the project rubric before and during development of your project to ensure you meet all specifications.
+## Repository Files explained
 
 
+* **[data](data)**: Contains the Data to Perform task on. 
+* **[create_tables.py](create_tables.py)**: Connect to Postgres and create, drop tables.
+* **[sql_queries.py](sql_queries.py)**: Python script containing SQL-Statements used by create_tables.py and etl.py
+* **[etl.py](etl.py)**: Python script to extract the needed information from Data sources and inserting them to the created database schema and tables.
+* **[etl.ipynb](etl.ipynb)**: Testing environment to check the dataset structure, data integrity, transformations on a subset of our data and verify the correctness of our pipeline.
+* **[test.ipynb](test.ipynb)**: SQL queries to test the data piped into our database.
 
-Resource: udacity
+
+## Dataset used
+
+1. The first dataset is a subset of real data from the [Million Song Dataset](http://millionsongdataset.com/). Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID.
+
+2. The second dataset consists of log files in JSON format generated by this event simulator based on the songs in the dataset above. These simulate activity logs from a music streaming app based on specified configurations.
+
+
+## The Schema design:
+
+### Example of **`songplays` schema**
+
+
+| Column        | Data Type     | Size  |Constraints|
+| ------------- |:-------------:| -----:|:---------:|
+| songplay_id   | SERIAL        | -     |primary key|
+| start_time    | TIMESTAMP        | -     |      -    |
+| user_id   | int        | -     |           |
+| level   | text        | -     |           |
+| song_id   | varchar        | 26    |           |
+| artist_id   | varchar        | 26     |           |
+| session_id   | int        | -     |           |
+| location   | text        | -     |primary key|
+| user_agent   | text        | -     |primary key|
+
+
+**`users` schema**
+
+| column name | datatype | size | constraint|
+|-------------|----------|------|-----------|
+| user_id     |int       |-     |primary key|
+| first_name  |text      |-     ||
+| last_name   |text      |-     ||
+| gender      |varchar   |1     ||
+| level       |text      |-     ||
+
+**`songs` schema**
+
+| column name | datatype | size | constraint|
+|-------------|----------|------|-----------|
+| song_id     |varchar   |20    |primary key|
+| title       |varchar      |100     ||
+| artist_id   |varchar   |20    ||
+| year        |integer       |-     ||
+| duration    |float     |-     ||
+
+**`artists` schema**
+
+| column name | datatype | size | constraint|
+|-------------|----------|------|-----------|
+| artist_id   |varchar   |25    |primary key|
+| name        |text      |-     ||
+| location    |text      |-     ||
+| latitude    |float     |-     ||
+| longitude   |float     |-     ||
+
+**`time` schema**
+
+| column name | datatype | size | constraint|
+|-------------|----------|------|-----------|
+| start_time  |bigint    |      |primary key|
+| hour        |int       |-     ||
+| day         |int       |-     ||
+| week        |int       |-     ||
+| year        |int       |-     ||
+| weekday     |int       |-     ||
+
+
+* **Fact Table**: songplays
+* **Dimension Tables**: users, songs, artists and time.
+#### The fact table references the primary keys of each dimention table, enabling joins to songplays on song_id, artist_id, user_id and start_time, respectively. This will enable the analysts to aggregate the data efficiently and explore it using standard SQL queries.
+
+# How to run the python scripts
+
+To create the database tables run the following command:
+
+To create tables:
+```bash
+python3 create_tables.py
+```
+Run this below command to fill in the tables via ETL:
+```bash
+python3 etl.py
+```
