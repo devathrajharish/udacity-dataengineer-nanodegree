@@ -4,7 +4,7 @@
 2. Repository files explained
 3. Dataset used
 4. The schema Design
-5. 
+5. What
 6. How to run the project
 
 # Summary of project
