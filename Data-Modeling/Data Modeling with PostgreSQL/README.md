@@ -49,13 +49,52 @@ Task is to create a Postgres database with tables designed to optimize queries o
 | location   | text        | -     |primary key|
 | user_agent   | text        | -     |primary key|
 
-#### **`user` schema**
-#### **`artists` schema**
-#### **`time` schema**
+
+**`users` schema**
+
+| column name | datatype | size | constraint|
+|-------------|----------|------|-----------|
+| user_id     |int       |-     |primary key|
+| first_name  |text      |-     ||
+| last_name   |text      |-     ||
+| gender      |varchar   |1     ||
+| level       |text      |-     ||
+
+**`songs` schema**
+
+| column name | datatype | size | constraint|
+|-------------|----------|------|-----------|
+| song_id     |varchar   |20    |primary key|
+| title       |varchar      |100     ||
+| artist_id   |varchar   |20    ||
+| year        |integer       |-     ||
+| duration    |float     |-     ||
+
+**`artists` schema**
+
+| column name | datatype | size | constraint|
+|-------------|----------|------|-----------|
+| artist_id   |varchar   |25    |primary key|
+| name        |text      |-     ||
+| location    |text      |-     ||
+| latitude    |float     |-     ||
+| longitude   |float     |-     ||
+
+**`time` schema**
+
+| column name | datatype | size | constraint|
+|-------------|----------|------|-----------|
+| start_time  |bigint    |      |primary key|
+| hour        |int       |-     ||
+| day         |int       |-     ||
+| week        |int       |-     ||
+| year        |int       |-     ||
+| weekday     |int       |-     ||
+
 
 * **Fact Table**: songplays
 * **Dimension Tables**: users, songs, artists and time.
-The fact table references the primary keys of each dimention table, enabling joins to songplays on song_id, artist_id, user_id and start_time, respectively. This will enable the analysts to aggregate the data efficiently and explore it using standard SQL queries.
+#### The fact table references the primary keys of each dimention table, enabling joins to songplays on song_id, artist_id, user_id and start_time, respectively. This will enable the analysts to aggregate the data efficiently and explore it using standard SQL queries.
 
 # How to run the python scripts
 
