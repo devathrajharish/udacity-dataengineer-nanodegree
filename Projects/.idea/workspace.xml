@@ -2,172 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0448e30-3d2c-4411-bceb-fef1b6b7cd1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/Project_1B_ Project_Template.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-01-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-02-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-03-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-04-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-05-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-06-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-07-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-08-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-09-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-10-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-11-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-12-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-13-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-14-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-15-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-16-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-17-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-18-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-19-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-20-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-21-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-22-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-23-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-24-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-25-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-26-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-27-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-28-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-29-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_data/2018-11-30-events.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/event_datafile_new.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with Apache Cassandra/images/image_event_datafile_new.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/.idea/Data Modeling with PostgreSQL.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/.ipynb_checkpoints/etl-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/.ipynb_checkpoints/test-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/create_tables.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-01-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-02-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-03-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-04-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-05-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-06-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-07-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-08-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-09-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-10-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-11-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-12-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-13-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-14-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-15-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-16-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-17-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-18-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-19-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-20-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-21-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-22-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-23-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-24-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-25-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-26-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-27-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-28-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-29-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/log_data/2018/11/2018-11-30-events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/.ipynb_checkpoints/TRAAAAW128F429D538-checkpoint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/.ipynb_checkpoints/TRAAABD128F429CF47-checkpoint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/.ipynb_checkpoints/TRAAADZ128F9348C2E-checkpoint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/.ipynb_checkpoints/TRAAAEF128F4273421-checkpoint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/TRAAAAW128F429D538.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/TRAAABD128F429CF47.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/TRAAADZ128F9348C2E.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/TRAAAEF128F4273421.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/TRAAAFD128F92F423A.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/TRAAAMO128F1481E7F.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/TRAAAMQ128F1460CD3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/TRAAAPK128E0786D96.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/TRAAARJ128F9320760.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/TRAAAVG12903CFA543.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/A/TRAAAVO128F93133D4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/B/.ipynb_checkpoints/TRAABDL12903CAABBA-checkpoint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/B/TRAABCL128F4286650.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/B/TRAABDL12903CAABBA.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/B/TRAABJL12903CDCF1A.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/B/TRAABJV128F1460C49.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/B/TRAABLR128F423B7E3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/B/TRAABNV128F425CEE1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/B/TRAABRB128F9306DD5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/B/TRAABVM128F92CA9DC.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/B/TRAABXG128F9318EBD.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/B/TRAABYN12903CFD305.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/B/TRAABYW128F4244559.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACCG128F92E8A55.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACER128F4290F96.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACFV128F935E50B.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACHN128F1489601.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACIW12903CC0F6D.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACLV128F427E123.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACNS128F14A2DF5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACOW128F933E35F.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACPE128F421C1B9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACQT128F9331780.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACSL128F93462F4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACTB12903CAAF15.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACVS128E078BE39.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/A/C/TRAACZK128F4243829.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/A/TRABACN128F425B784.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/A/TRABAFJ128F42AF24E.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/A/TRABAFP128F931E9A1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/A/TRABAIO128F42938F9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/A/TRABATO128F42627E9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/A/TRABAVQ12903CBF7E0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/A/TRABAWW128F4250A31.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/A/TRABAXL128F424FC50.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/A/TRABAXR128F426515F.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/A/TRABAXV128F92F6AE3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/A/TRABAZH128F930419A.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/B/TRABBAM128F429D223.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/B/TRABBBV128F42967D7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/B/TRABBJE12903CDB442.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/B/TRABBKX128F4285205.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/B/TRABBLU128F93349CF.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/B/TRABBNP128F932546F.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/B/TRABBOP128F931B50D.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/B/TRABBOR128F4286200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/B/TRABBTA128F933D304.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/B/TRABBVJ128F92F7EAA.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/B/TRABBXU128F92FEF48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/B/TRABBZN12903CD9297.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/C/.ipynb_checkpoints/TRABCAJ12903CDFCC2-checkpoint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/C/TRABCAJ12903CDFCC2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/C/TRABCEC128F426456E.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/C/TRABCEI128F424C983.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/C/TRABCFL128F149BB0D.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/C/TRABCIX128F4265903.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/C/TRABCKL128F423A778.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/C/TRABCPZ128F4275C32.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/C/TRABCRU128F423F449.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/C/TRABCTK128F934B224.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/C/TRABCUQ128E0783E2B.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/C/TRABCXB128F4286BD3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/data/song_data/A/B/C/TRABCYE128F934CE1D.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/etl.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/etl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/sql_queries.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Modeling with PostgreSQL/test.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Warehouse/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Warehouse/.idea/Data Warehouse.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Warehouse/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Warehouse/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Warehouse/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Warehouse/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Warehouse/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Warehouse/create_tables.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Warehouse/dwh.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Warehouse/etl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data Warehouse/sql_queries.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,13 +11,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1eGjanoHRSYxwk6cjN3F3a5qgKh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="etl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P4-Data Lake with Spark" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/P4-Data Lake with Spark/etl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.etl" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -195,5 +62,27 @@
       <updated>1593954889234</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1593961800925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593961800925" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1593961800925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593961800925" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1593961800925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593961800925" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1593961800925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593961800925" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1593955107269">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593955107269" />
   </component>
 </project>
