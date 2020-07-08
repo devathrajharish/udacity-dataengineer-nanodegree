@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0448e30-3d2c-4411-bceb-fef1b6b7cd1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P4-Data Lake with Spark/dl.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/P4-Data Lake with Spark/dl.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P4-Data Lake with Spark/etl.py" beforeDir="false" afterPath="$PROJECT_DIR$/P4-Data Lake with Spark/etl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
