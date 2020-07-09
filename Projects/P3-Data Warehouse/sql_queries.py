@@ -42,7 +42,7 @@ staging_events_table_create= ("""
 
 staging_songs_table_create = ("""
 CREATE TABLE staging_songs (
-    song_id             TEXT PRIMARY KEY,
+    song_id             TEXT,
     num_songs           INTEGER,
     artist_id           TEXT,
     artist_latitude      DOUBLE PRECISION,
@@ -57,7 +57,7 @@ CREATE TABLE staging_songs (
 
 songplay_table_create = ("""
 CREATE TABLE fact_songplay (
-    songplay_id         INTEGER IDENTITY(0,1) PRIMARY KEY,
+    songplay_id         INTEGER IDENTITY(0,1),
     start_time          TIMESTAMP NOT NULL REFERENCES dim_time(start_time) sortkey,
     user_id             INTEGER NOT NULL REFERENCES dim_user(user_id),
     level               TEXT NOT NULL,
@@ -189,9 +189,10 @@ songplay_table_insert = ("""
             s.artist_id     AS artist_id, 
             e.sessionId     AS session_id, 
             e.location      AS location, 
+            e.length        AS length,
             e.userAgent     AS user_agent
     FROM staging_events e
-    JOIN staging_songs  s   ON (e.song = s.title AND e.artist = s.artist_name)
+    JOIN staging_songs  s   ON (e.song = s.title AND e.artist = s.artist_name AND e.length = s.duration)
     AND e.page  =  'NextSong'
 """)
 
