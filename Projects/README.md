@@ -1,4 +1,4 @@
-# Project 1 and 2 – Data Modeling
+# [Project 1 and 2 – Data Modeling](https://github.com/devathrajharish/udacity-dataengineer-nanodegree/tree/master/Projects/P1-Data%20Modeling%20with%20PostgreSQL)
 - learn to create relational and NoSQL data models to fit the diverse needs of data consumers. In the project, students will build SQL (Postgres) and NoSQL (Apache Cassandra) data models using user activity data for a music streaming app.
 
 # Project 3 – Cloud Data Warehouses
