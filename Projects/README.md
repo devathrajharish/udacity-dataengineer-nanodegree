@@ -12,5 +12,5 @@
 ### [Project 5 – Data Pipelines with Apache Airflow](https://github.com/devathrajharish/udacity-dataengineer-nanodegree/tree/master/Projects/P5-%20Airflow)
 - learn to schedule, automate, and monitor data pipelines using Apache Airflow. In the project, they’ll continue your work on the music streaming company’s data infrastructure by creating and automating a set of data pipelines.
 
-# [Capstone Project](https://github.com/devathrajharish/udacity-dataengineer-nanodegree/tree/master/Projects/Capstorne%20Project)
+### [Capstone Project](https://github.com/devathrajharish/udacity-dataengineer-nanodegree/tree/master/Projects/Capstorne%20Project)
 - In the capstone project, gather data from several different data sources; transform, combine, and summarize it; and create a clean database for others to analyze.
