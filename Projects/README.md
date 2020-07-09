@@ -9,3 +9,6 @@
 
 # Project 5 – Data Pipelines with Apache Airflow
 - learn to schedule, automate, and monitor data pipelines using Apache Airflow. In the project, they’ll continue your work on the music streaming company’s data infrastructure by creating and automating a set of data pipelines.
+
+# Capstone Project
+- In the capstone project, gather data from several different data sources; transform, combine, and summarize it; and create a clean database for others to analyze.
