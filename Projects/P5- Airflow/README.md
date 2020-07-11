@@ -1,5 +1,5 @@
 # Data Pipelines
-
+## Introduction:
 Goal: create high grade data pipelines that are dynamic and built from reusable tasks, can be monitored, and allow easy backfills. They have also noted that the data quality plays a big part when analyses are executed on top the data warehouse and want to run tests against their datasets after the ETL steps have been executed to catch any discrepancies in the datasets.
 
 The source data resides in S3 and needs to be processed in Sparkify's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
@@ -50,8 +50,6 @@ The data is queried from s3 buckets hosted at AWS
         * `load_fact.py` - Operator to load the fact table in Redshift
         * `load_dimension.py` - Operator to read from staging tables and load the dimension tables in Redshift
         * `data_quality.py` - Operator for data quality checking
-
-
 
 
 ### 4. Running Scripts
