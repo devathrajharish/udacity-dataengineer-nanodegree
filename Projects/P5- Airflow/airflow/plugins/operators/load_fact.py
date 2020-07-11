@@ -10,20 +10,30 @@ class LoadFactOperator(BaseOperator):
     def __init__(self,
                  redshift_conn_id="",
                  table="",
-                 truncate_table=True,
-                 query="",
+                 load_sql_stmt="",
+                 append_data=False,
                  *args, **kwargs):
 
         super(LoadFactOperator, self).__init__(*args, **kwargs)
-        self.table=table
         self.redshift_conn_id = redshift_conn_id
-        self.truncate_table=truncate_table
-        self.query=query
+        self.table = table
+        self.append_data = append_data
+        self.load_sql_stmt = load_sql_stmt
+
     def execute(self, context):
         redshift = PostgresHook(postgres_conn_id=self.redshift_conn_id)
-        if self.truncate_table:
-            self.log.info(f'Truncating Table {self.table}')
-            redshift.run("DELETE FROM {}".format(self.table))
-        self.log.info(f'Running query {self.query}')
-        redshift.run(f"Insert into {self.table} {self.query}")
-        
+        self.log.info("Loading fact table into redshift")
+
+        if not self.append_data:
+            sql_statement = 'DELETE FROM %s' % self.table_name
+            redshift.run(sql_statement)
+
+        insert_sql = """
+        INSERT INTO {}
+        {};
+        """
+        formatted_sql = insert_sql.format(
+            self.table,
+            self.load_sql_stmt
+        )
+        redshift.run(formatted_sql)
