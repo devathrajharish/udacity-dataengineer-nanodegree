@@ -1,10 +1,17 @@
-# Summary of project
+#Data Pipelines
 
-Startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
+Goal: create high grade data pipelines that are dynamic and built from reusable tasks, can be monitored, and allow easy backfills. They have also noted that the data quality plays a big part when analyses are executed on top the data warehouse and want to run tests against their datasets after the ETL steps have been executed to catch any discrepancies in the datasets.
 
-In order to enable Sparkify to parse their data automated over S3 into Redshift, they decided to use Airflow to schedule and monitor their pipeline jobs.
+The source data resides in S3 and needs to be processed in Sparkify's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
 
-# Files in the repository
+# This documentation contains:
+
+1. Table design and schemas
+2. Data extraction and transformation
+3. Explanation of files in the repository
+4. Running the scripts
+
+# Explanation of files in the repository
 
 * **[airflow](airflow)**: workspace folder storing the airflow DAGs and plugins used by the airflow server.
 * **[airflow/dags/s3_to_redshift_dag.py](airflow/dags/s3_to_redshift_dag.py)**: "Main"-DAG written in Python containing all steps of the pipeline.
