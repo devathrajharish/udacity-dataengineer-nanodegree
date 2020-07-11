@@ -15,9 +15,9 @@ The source data resides in S3 and needs to be processed in Sparkify's data wareh
 #### The required DAG
 
 <img src="./images/airflow_dag.JPG?raw=true" width="800" />
-- Fact Table: songplays
-- Dimension Tables: users, songs, artists and time.
-- Staging Tables: Stage_events, Stage_songs
+##### Fact Table: songplays
+##### Dimension Tables: users, songs, artists and time.
+##### Staging Tables: Stage_events, Stage_songs
 
 
 ### 2. Data extraction and transformation.
